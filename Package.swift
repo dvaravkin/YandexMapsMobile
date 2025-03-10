@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "YandexMapsMobileSP",
+    name: "YandexMapsMobile",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "YandexMapsMobileSP",
+            name: "YandexMapsMobile",
             targets: ["YandexMapsMobile"]),
     ],
     targets: [
